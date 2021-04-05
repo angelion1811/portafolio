@@ -108,7 +108,7 @@
 
     private fourthData = {
       title:"Portafolio",
-      subtitle:"Lo que he logrado hacer.",
+      subtitle:"Lo que logrado Hacer.",
       descriptions:[
         {
           personIcon:"fab fa-node",
