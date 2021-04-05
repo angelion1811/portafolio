@@ -10,8 +10,13 @@ const routes: Array<RouteConfig> = [
 		component: Home
 	},
 	{
+		path: '/portafolio',
+		name: 'portafolio',
+		component: Home
+	},
+	{
 		path: '*',
-		redirect: {name:"Home"}
+		redirect: {name:"portafolio"}
 	}
 ]
 
