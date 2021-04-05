@@ -2,9 +2,6 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import scrollAnimation from './directives/scrollAnimation'
-
-Vue.directive("scrollanimation", scrollAnimation);
 
 Vue.config.productionTip = false
 

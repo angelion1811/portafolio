@@ -3,11 +3,11 @@
     <div id="page-wrapper">
       <Header/>
       <Banner :banner=bannerData />
-      <SectionOne :data=firstData v-scrollanimation />
-      <SectionTwo :data=secondData v-scrollanimation />
-      <SectionThree :data=thirdData v-scrollanimation />
-      <SectionFourth :data=fourthData v-scrollanimation />
-      <SectionFifth  :data=fifthData v-scrollanimation />
+      <SectionOne :data=firstData />
+      <SectionTwo :data=secondData />
+      <SectionThree :data=thirdData />
+      <SectionFourth :data=fourthData />
+      <SectionFifth  :data=fifthData />
       <Footer/>
     </div>
   </div>

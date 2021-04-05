@@ -28,15 +28,15 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class SectionFifth extends Vue {
-  @Prop() private data;
+  @Prop() private data: any;
   
   private message = "";
 
   private phoneNumber = "584124614009";
 
   private sendMessage(): void {
-    let url = "https://api.whatsapp.com/send?phone="+this.phoneNumber+"&text="+encodeURI(this.message)+"";
-    window.location=url;
+    let url = "https://api.whatsapp.com/send?phone="+this.phoneNumber+"&text="+encodeURI(this.message);
+    window.open(url);
   }
 }
 </script>
