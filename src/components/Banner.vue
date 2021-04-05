@@ -10,7 +10,7 @@
             </header>
             <span class="image"><img :src="banner.picture" alt="" /></span>
         </div>
-        <a href="#one" class="goto-next scrolly">Next</a>
+        <a href="#about" class="goto-next scrolly">Next</a>
     </section>
 </template>
 

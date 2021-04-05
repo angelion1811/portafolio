@@ -2,12 +2,11 @@
     <!-- Footer -->
     <footer id="footer">
         <ul class="icons">
-            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-            <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            <li v-for="(item, i) in data.descriptions" :key=i>
+                <a :href="item.route" :class="item.icon">
+                    <span class="label">{{item.paragraph}}</span>
+                </a>
+            </li>
         </ul>
         <ul class="copyright">
             <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -20,7 +19,47 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class Footer extends Vue {
-  @Prop() private msg!: string;
+    private data = {
+      descriptions:[
+        {
+          icon:"icon brands alt fa fa-whatsapp",
+          route:"https://wa.me/584124614009",
+          paragraph:"Whatsapp"
+        },
+        {
+          icon:"icon brands alt fa fa-facebook-f",
+          route:"https://www.facebook.com/angel.leon1",
+          paragraph:"Facebook"
+        },
+        /*
+        {
+          icon:"",
+          route:"#",
+          paragraph:"Twitter"
+        },
+        */
+        {
+          icon:"icon brands alt fa-instagram",
+          route:"https://www.instagram.com/angel.leon1/",
+          paragraph:"Instagram"
+        },
+        {
+          icon:"icon brands alt fa-github",
+          route:"https://github.com/angelion1811",
+          paragraph:"GitHub"
+        },
+        {
+          icon:"icon brands alt fa-linkedin-in",
+          route:"linkedin.com/in/angel-leon-164004175",
+          paragraph:"LinkedIn"
+        },
+        {
+          icon:"icon solid alt fa fa-envelope",
+          route:"mailto:angelleon.ef@gmail.com",
+          paragraph:"Email"
+        },
+      ]
+    }
 }
 </script>
 

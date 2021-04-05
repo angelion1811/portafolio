@@ -19,10 +19,10 @@
                         <h3>{{section.title}}</h3>
                         <p>{{section.description}}</p>
                          <footer class="major" >
-                            <ul class="actions special" v-if=section.seeMoreRoute>
-                                <li>
-                                    <a  :href="section.seeMoreRoute" class="button">
-                                        Ver más
+                            <ul class="actions special" v-if=section.link>
+                                <li v-for="(item, k) in section.link" :key=k>
+                                    <a  :href="item.route" class="button" target="new_blank">
+                                        {{item.description}}
                                     </a>
                                 </li>
                                 

@@ -1,7 +1,7 @@
 <template>
   <!-- Two -->
     <section id="experience" class="spotlight style2 right">
-        <span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+        <span class="image fit main"><img :src="data.picture" alt="" /></span>
         <div class="content">
             <header>
                 <h2>{{data.title}}</h2>
@@ -18,7 +18,7 @@
                 </li>
             </ul>
         </div>
-        <a href="#three" class="goto-next scrolly">Next</a>
+        <a href="#skills" class="goto-next scrolly">Next</a>
     </section>
 </template>
 

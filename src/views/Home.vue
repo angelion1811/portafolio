@@ -46,7 +46,7 @@
     private bannerData = {
       title:"Angel León",
       descriptions:[
-        "Full-Stack Web Developer",
+        "Desarrollador Web Full-Stack",
         '"Hay dos formas de escribir programas sin errores;',
         'Solo La tercera funciona"',
         ' --Alan J. Perlis'
@@ -56,13 +56,12 @@
 
     private firstData = {
       title:"Hola!, soy Angel.",
-      subtitle:"FullStack Web Developer",
+      subtitle:"Voy a contarte un poco acerca de mí.",
       paragraphs:[
-          "Comencé en esta profesión de manera oficial a partir del 2017 y trabajado en diferentes aréas que conlleva un desarrollo web. Mi primer empleo estuve como Backend Developer.",
+          "Comencé en esta profesión de manera oficial a partir del 2017 y trabajado en diferentes áreas que conlleva un desarrollo web. Mi primer empleo estuve como Backend Developer.",
           "En lo personal prefiero trabajar mas en el backend que en el front-end, sin embargo eso no implica que no pueda cumplir ese rol."
         ],
-      picture:"../landed/images/picture.jpg"
-
+      picture:"../landed/images/dashboard.png"
     }
 
     private secondData = {
@@ -70,10 +69,11 @@
       subtitle:"Roles",
       paragraphs:[
         "Como mencioné anteriormente he trabajado en diferentes roles en cuanto al desarrollo web",
-        "Backend Developer: haciendo desarrollo de API's con php y node, sockets en node.js",
-        "Front-end Developer: haciendo paginas usando los frameworks Angular o vuejs",
+        "Backend Developer: haciendo desarrollo de API's con php y node, sockets en nodejs.",
+        "Front-end Developer: haciendo paginas usando los frameworks Angular o vuejs.",
         "Tester QA: haciendo pruebas de repuestas de las API's haciendo uso de cliente la herramienta Postman.",
       ],
+      picture:"../landed/images/socket.png"
     }
 
     private thirdData = {
@@ -103,6 +103,7 @@
           ]
         }
       ],
+      picture:"../landed/images/angular.png"
     }
 
     private fourthData = {
@@ -112,52 +113,78 @@
         {
           personIcon:"fab fa-node",
           title:"API en Nodejs",
-          description:"una pequeña API para un test de Angular montada en Heroku usando como gesto de base de datos MySQL y como ORM sequelize"
+          description:"Una pequeña API para un test de Angular montada en Heroku usando como gesto de base de datos MySQL y como ORM sequelize.",
+          link:[
+            {
+              description:"Ver pagina",
+              route:"http://angel-nodeapi.herokuapp.com/"
+            },
+            {
+              description:"Ver codigo",
+              route:"https://github.com/angelion1811/nodeapi"
+            },
+          ]
         },
          {
           personIcon:"fab fa-laravel",
           title:"API en Laravel",
-          description:"una pequeña API en Laravel usando como gesto de base de datos MySQL y como ORM Entity de Laravel no esta en Heroku sin embargo esta en mi repositorio de GitHub"
+          description:"Una pequeña API en Laravel usando como gesto de base de datos MySQL y como ORM Entity de Laravel no esta en Heroku sin embargo esta en mi repositorio de GitHub.",
+          link:[
+            {
+              description:"Ver codigo",
+              route:"https://github.com/angelion1811/laravel_basic_api"
+            },
+          ]
         },
          {
           personIcon:"fab fa-angular",
           title:"Crud en Angular",
-          description:"Este en un pequeño Crud que hice como practica para conocer las bases de Angular y Esta montado en mis GitHub Pages, este consume la api que realice en Nodejs"
+          description:"Este en un pequeño Crud que hice como practica para conocer las bases de Angular y Esta montado en mis GitHub Pages, este consume la api que realice en Nodejs.",
+          link:[
+            {
+              description:"Ver pagina",
+              route:"https://angelion1811.github.io/crudangular/"
+            },
+            {
+              description:"Ver codigo",
+              route:"https://github.com/angelion1811/crudangular"
+            },
+          ]
         },
         {
           personIcon:"fab fa-vuejs",
           title:"Portafolio",
-          description:"Este Portafolio fue realizado en Vuejs como practica para conocer la forma usando typescript"
+          description:"Este Portafolio fue realizado en Vuejs como practica para conocer la forma usando typescript. Y bueno como saben esta montado en mis GitHub pages por ende esta en mis repositorios.",
+          link:[
+            {
+              description:"Ver codigo",
+              route:"https://github.com/angelion1811/portafolio"
+            }
+          ]
         },
         {
           personIcon:"fab fa-node-js",
           title:"Sockets",
-          description:"Un pequeño socket de prueba realizado en Nodejs para mostrar la reactividad y respuesta en tiempo real, este socket cumple la funcion chat mas no almacena en alguna base de datos. este "
+          description:"Un pequeño socket de prueba realizado en Nodejs para mostrar la reactividad y respuesta en tiempo real, este socket cumple la función de chat mas no almacena en alguna base de datos.",
+          link:
+          [
+            {
+              description:"Ir pagina",
+              route:"http://angel-chatio.herokuapp.com/"
+            }
+          ]
         },
         {
           personIcon:"fab fa-html5",
           title:"Extensiones de Chrome",
-          description:"He realizado un par de extensiones en Chrome con fines le lucro para sus usuarios por lo cual su funcion se omiten."
+          description:"He realizado un par de extensiones en Chrome con fines le lucro para sus usuarios por lo cual su función se omiten."
         },
       ],
     }
 
     private fifthData = {
       title:"Contáctame",
-      subtitle:"",
-      descriptions:[
-        {
-          icon:"fa-nodejs",
-          title:"API en Nodej",
-          paragraph:"una pequeña API para un test de Angular montada en Heroku usando como gesto de base de datos MySQL y como ORM sequelize"
-        },
-         {
-          icon:"fa-chart-area",
-          title:"API en Laravel",
-          paragraph:"una pequeña API en Laravel usando como gesto de base de datos MySQL y como ORM Entity de Laravel no esta en Heroku"
-        },
-      ]
+      subtitle:"Si estás interesado en comunicarte conmigo envíame un mensaje por Whatsapp a través del formulario o contáctame a través de mis redes sociales.",
     }
-
   }
 </script>

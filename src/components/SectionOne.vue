@@ -1,7 +1,7 @@
 <template>
   <!-- One -->
     <section id="about" class="spotlight style1 bottom">
-        <span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+        <span class="image fit main"><img :src="data.picture" alt="" /></span>
         <div class="content">
             <div class="container">
                 <div class="row">
@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <a href="#two" class="goto-next scrolly">Next</a>
+        <a href="#experience" class="goto-next scrolly">Next</a>
     </section>
 </template>
 
