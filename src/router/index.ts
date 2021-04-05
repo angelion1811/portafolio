@@ -17,6 +17,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
 	base:"/portafolio/",
+	mode: 'history',
 	routes: routes
 })
 
