@@ -1,7 +1,7 @@
 <template>
     <!-- Header -->
     <header id="header">
-        <h1 id="logo"><a href="index.html">{{nav.title}}</a></h1>
+        <h1 id="logo"><a href="#banner">{{nav.title}}</a></h1>
         <nav id="nav">
             <ul v-if=nav.menu>
                 <li v-for="(opcion, i) in nav.menu" :key=i>
