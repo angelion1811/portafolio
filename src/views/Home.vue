@@ -51,7 +51,7 @@
         'Solo La tercera funciona"',
         ' --Alan J. Perlis'
       ],
-      picture:"../landed/images/picture.jpg"
+      picture:"../portafolio/landed/images/picture.jpg"
     }
 
     private firstData = {
@@ -61,7 +61,7 @@
           "Comencé en esta profesión de manera oficial a partir del 2017 y trabajado en diferentes áreas que conlleva un desarrollo web. Mi primer empleo estuve como Backend Developer.",
           "En lo personal prefiero trabajar mas en el backend que en el front-end, sin embargo eso no implica que no pueda cumplir ese rol."
         ],
-      picture:"../landed/images/dashboard.png"
+      picture:"../portafolio/landed/images/panel.png"
     }
 
     private secondData = {
@@ -73,7 +73,7 @@
         "Front-end Developer: haciendo paginas usando los frameworks Angular o vuejs.",
         "Tester QA: haciendo pruebas de repuestas de las API's haciendo uso de cliente la herramienta Postman.",
       ],
-      picture:"../landed/images/socket.png"
+      picture:"../portafolio/landed/images/socket.png"
     }
 
     private thirdData = {
@@ -103,7 +103,7 @@
           ]
         }
       ],
-      picture:"../landed/images/angular.png"
+      picture:"../portafolio/landed/images/angular.png"
     }
 
     private fourthData = {
