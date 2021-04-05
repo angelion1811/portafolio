@@ -10,23 +10,13 @@ const routes: Array<RouteConfig> = [
 		component: Home
 	},
 	{
-		path: '/portafolio',
-		name: 'portafolio',
-		component: Home
-	},
-	{
-		path: '/portafolio/*',
-		redirect: {name:"portafolio"}
-	},
-	{
 		path: '*',
-		redirect: {name:"portafolio"}
+		redirect: {name:"Home"}
 	}
 ]
 
 const router = new VueRouter({
 	base:"/portafolio/",
-	mode: 'history',
 	routes: routes
 })
 
