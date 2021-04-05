@@ -51,7 +51,7 @@
         'Solo La tercera funciona"',
         ' --Alan J. Perlis'
       ],
-      picture:"../portafolio/landed/images/picture.jpg"
+      picture:"../portafolio/landed/images/picture2.png"
     }
 
     private firstData = {
@@ -108,7 +108,7 @@
 
     private fourthData = {
       title:"Portafolio",
-      subtitle:"Lo que logrado Hacer.",
+      subtitle:"Lo que he logrado hacer.",
       descriptions:[
         {
           personIcon:"fab fa-node",
