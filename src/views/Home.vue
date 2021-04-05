@@ -116,7 +116,7 @@
           description:"Una pequeña API para un test de Angular montada en Heroku usando como gesto de base de datos MySQL y como ORM sequelize.",
           link:[
             {
-              description:"Ver pagina",
+              description:"Ir pagina",
               route:"http://angel-nodeapi.herokuapp.com/"
             },
             {
@@ -142,7 +142,7 @@
           description:"Este en un pequeño Crud que hice como practica para conocer las bases de Angular y Esta montado en mis GitHub Pages, este consume la api que realice en Nodejs.",
           link:[
             {
-              description:"Ver pagina",
+              description:"Ir pagina",
               route:"https://angelion1811.github.io/crudangular/"
             },
             {
