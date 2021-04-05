@@ -12,11 +12,13 @@ const routes: Array<RouteConfig> = [
 	{
 		path: '*',
 		redirect: {name:"Home"}
-	},
+	}
 ]
 
 const router = new VueRouter({
-  routes
+	mode: 'history', 
+	base: '/portafolio/',
+	routes: routes
 })
 
 export default router
