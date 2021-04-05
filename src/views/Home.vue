@@ -78,7 +78,7 @@
 
     private thirdData = {
       title:"Habilidades",
-      subtitle:"Que logrado aprender y dominar",
+      subtitle:"Que he logrado aprender y dominar",
       descriptions:[
         {
           paragraph:"Durante este tiempo en trabajado con los siguientes lenguajes",
@@ -108,7 +108,7 @@
 
     private fourthData = {
       title:"Portafolio",
-      subtitle:"Lo que logrado Hacer.",
+      subtitle:"Lo que he logrado Hacer.",
       descriptions:[
         {
           personIcon:"fab fa-node",
