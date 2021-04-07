@@ -71,7 +71,7 @@
         "Como mencioné anteriormente he trabajado en diferentes roles en cuanto al desarrollo web",
         "Backend Developer: haciendo desarrollo de API's con php y node, sockets en nodejs.",
         "Front-end Developer: haciendo paginas usando los frameworks Angular o vuejs.",
-        "Tester QA: haciendo pruebas de respuestas de las API's haciendo uso de cliente la herramienta Postman.",
+        "Tester QA: haciendo pruebas de respuestas de las API's haciendo uso de la herramienta cliente Postman.",
       ],
       picture:"../portafolio/landed/images/socket.png"
     }
